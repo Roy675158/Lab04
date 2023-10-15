@@ -1,0 +1,80 @@
+#wrapper{
+  width: 80&;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+body {
+  text-align: center;
+  color: blue;
+  background-color: lightgreen;
+}
+p { 
+  font-family: sans-serif;Verdana, ariel, sans serif;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+  border: red, 30px;
+  border-style: double;
+  padding: 15px;
+  margin:30px;
+}
+h2 { 
+  text-align: center;
+  text-transform:capitalize;
+  width: 80%;
+  border:red;
+  border-style: double;
+  padding: 15px;
+  margin: 30px;
+ }
+footer{
+  text-align: center;
+ background-color: transparent;
+ width: 80%;
+ border: red; 
+ border-style: double;
+ padding: 15px; 
+ margin:20px;
+}
+.columns {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: 5px 0;
+}
+.column {
+  flex: 1;
+  box-sizing: content-box; 
+  float: left;
+  width: 40%; /* two boxes (use 40% for one and 40% for two)*/
+  background-color: transparent;
+  border: red;
+  border-style:double;
+  padding: 15px; 
+  margin:20px; 
+}
+.column {
+ float: rigth;
+ width: 40%;/* two boxes (use 40% for one and 40% for two)*/
+ background-color: transparent;
+ border: red;
+ border-style:double;
+ padding: 15px; 
+ margin-right: 20px;
+}
+a:link{color: crimson;}
+a:visted{color:black;}
+a:hover{
+  background-color: transparent;
+  color: crimson;
+  text-decoration: none;
+}
+img {
+ max-width: 50%; 
+ height: auto;
+ border-radius: 50%; 
+ box-shadow: 10px 10px blue;}
+
